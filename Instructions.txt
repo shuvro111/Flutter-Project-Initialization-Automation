@@ -1,0 +1,22 @@
+Pre-Install:
+
+1. Login to your github account.
+2. Go to settings > Developer settings > Personal access tokens and Generate a new token.
+3. Go to environment variables and add 2 varibables as bellow:
+
+gt = your github token
+mp = the folder path in which you want to create the projects
+
+
+Install:
+
+1. git clone "https://github.com/KalleHallden/ProjectInitializationAutomation.git"
+2. pip install -r requirements.txt
+
+3. Cut the "create.bat" and "remote.py" file and paste in your System32 folder. Usually the path is C:\Windows\System32
+
+
+Usage:
+1.Run your command prompt in adminstrator mode and type in 'create' and press enter.
+2. Follow the instructions
+3. Enjoy!
